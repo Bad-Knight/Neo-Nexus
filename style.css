@@ -1,6 +1,13 @@
 /* General Styles */
+
+.roboto-mono-roboto-normal {
+                  font-family: "Roboto Mono", serif;
+                  font-optical-sizing: auto;
+                  font-weight:400;
+                  font-style: normal;
+              }
 body {
-    font-family: Arial, sans-serif;
+    font-family: roboto mono, serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -9,14 +16,15 @@ body {
 }
 
 header {
-    background-color: #ffcc99;
+    background-color: #ff3434;
     color: #333;
     padding: 20px;
     text-align: center;
 }
 
 header h1 {
-    margin: 0;
+    text-align: center;
+    margin: 10px;
 }
 
 header h2 {
@@ -38,9 +46,14 @@ header h2 {
 
 .menu a {
     text-decoration: none;
-    color: #333;
+    color: #fff7e1;
 }
 
+a:hover {
+
+    color: black;
+
+}
 main {
     padding: 20px;
 }
@@ -48,8 +61,8 @@ main {
 section {
     margin-bottom: 20px;
     padding: 20px;
-    background: #fff;
-    border: 1px solid #ddd;
+    background: #550000;
+    border: 1px solid #550000;
     border-radius: 8px;
 }
 
@@ -65,9 +78,12 @@ section {
 footer {
     text-align: center;
     padding: 10px;
-    background: #ffcc99;
-    color: #333;
+    background: #900000;
+    color: #fff7e1;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+#headertext {
+    margin-left: 20px;
 }
